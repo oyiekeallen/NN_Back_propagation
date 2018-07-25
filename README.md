@@ -1,12 +1,12 @@
-# Neural network
+# Neural network - Back Propagation
 
-Simple implementaion of neural network (bp) in ruby
+Simple implementaion of neural network (bp) written in ruby
 
 
 ## Exection 
 > ruby mai.rb
 
-## Modifications
+## Making Modifications
 
 To use another dataset kindly change value in main.rb line 13
 > matrix = IO.readlines('./data/random.dataset').map { |line| line.split.map(&:to_i) }
@@ -15,7 +15,7 @@ To change algorithm working parameters, kindly change value in main.rb line 11
 >net = NeuralNetwork.new(256, 30, 10, 0.3, 0.5) # initialize network format: values(input nodes, hidden nodes ,output node,learning rate , momentum)
 
 
-## LICENSE
+## License
 
 Copyright 2018 Allen Oyieke 
 

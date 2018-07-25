@@ -1,22 +1,3 @@
-# Neural network
-
-Simple implementaion of neural network (bp) in ruby
-
-
-## Exection 
-> ruby mai.rb
-
-## Modifications
-
-To use another dataset kindly change value in main.rb line 13
-> matrix = IO.readlines('./data/random.dataset').map { |line| line.split.map(&:to_i) }
-
-To change algorithm working parameters, kindly change value in main.rb line 11
->net = NeuralNetwork.new(256, 30, 10, 0.3, 0.5) # initialize network format: values(input nodes, hidden nodes ,output node,learning rate , momentum)
-
-
-## LICENSE
-
 Copyright 2018 Allen Oyieke 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:

@@ -19,7 +19,7 @@ end
 
 puts "[+] Kindly wait training in session!"
 
-1000.times do |iterations|
+20.times do |iterations|
     #pp net.train(training_data.sample(60), iterations) # Train algorithm on data
     net.train(training_data.sample(60), iterations) # Train algorithm on data
 end
